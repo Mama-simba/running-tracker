@@ -1,22 +1,30 @@
 html {
   font-family: 'Source Code Pro', monospace;
+  
+  color: lightgray;
 }
 
 main {
   width: 40%;
-  margin: 0 auto;
-  background-color: #6ab9cb;
+  margin: 4rem auto 0 auto;
+  background-color: #272727;
   border-radius: 2rem;
   padding: 3rem 2rem 6rem 2rem;
-  box-shadow: 5px 5px 5px 0px #8c8b8b, inset 0px 0px 15px 0px #8c8b8b,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-h1 {
-  text-align: center;
-  
+
+
+img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
 }
 
+section{
+  background-color: #3b3b3b;
+  border-radius: 4px;
+}
 
 
 
