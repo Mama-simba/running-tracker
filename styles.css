@@ -35,11 +35,48 @@ header {
 img {
   display: block;
   width: 50%;
-  margin: 3rem auto 1rem auto;
+  margin: 4rem auto 0.5rem auto;
 }
 
 
+/* TOTAL MILES */
 
+form {
+  width: 70%;
+  margin: 0 auto;
+  box-shadow: whitesmoke 0px 2px 5px -1px, whitesmoke 0px 1px 3px -1px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+input {
+  width: 40px;
+  padding: 2px;
+  opacity: 0.8;
+  
+}
+
+button {
+  background-image: linear-gradient(to bottom, #d8cf87, #d6c85b);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  margin-top: 1rem;
+}
+
+/* LAST 7 DAYS DATA */
+
+.entriesWrapper{
+  box-shadow: whitesmoke 0px 2px 5px -1px, whitesmoke 0px 1px 3px -1px;
+  border-radius: 10px;
+}
+
+.entriesWrapper h3 {
+  text-align: center;
+  padding: 1.5rem 0 0.5rem 0;
+}
 
 
 
