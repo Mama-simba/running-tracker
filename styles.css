@@ -1,11 +1,19 @@
 
+* {
+    padding:0;
+    margin:0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+
 
 body{
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Asap', sans-serif;
   color: lightgray;
-  background-color: rgba(12, 12, 12, 0.8);
-  
-  
+  background-color: rgba(12, 12, 12, 0.8); 
 }
 
 main {
@@ -39,13 +47,18 @@ img {
 }
 
 
-/* TOTAL MILES */
+/* TOTAL KMS */
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background: rgb(216, 207, 135);
+    background-image: linear-gradient(to right, white, rgb(216, 207, 135), white);
+}
+
 
 form {
-  width: 70%;
-  margin: 0 auto;
-  box-shadow: whitesmoke 0px 2px 5px -1px, whitesmoke 0px 1px 3px -1px;
-  border-radius: 10px;
   text-align: center;
   padding: 1rem 0;
 }
@@ -58,32 +71,50 @@ input {
 }
 
 button {
-  background-image: linear-gradient(to bottom, #d8cf87, #d6c85b);
-  color: white;
+  background-image: linear-gradient(to bottom, #f5ef78, #d6c85b);
+  color: #212121;
   border: none;
   border-radius: 10px;
   padding: 10px 18px;
   margin-top: 1rem;
+  font-weight: bold;
+  font-family: 'Asap', sans-serif;
+
 }
+
+button:hover {
+box-shadow: rgba(247, 245, 245, 0.918) 0px 2px 8px 0px;
+}
+
+
+/* MAIN DATA CONTAINER*/
+.datacontainer {
+  background-color: #212121;
+  border-radius: 5px;
+  /*box-shadow: whitesmoke 0px 2px 5px -1px, whitesmoke 0px 1px 3px -1px;*/
+  margin-top: 1rem;
+  padding: 1rem 0 1rem 1.5rem;
+}
+
 
 /* LAST 7 DAYS DATA */
 
-.entriesWrapper{
-  box-shadow: whitesmoke 0px 2px 5px -1px, whitesmoke 0px 1px 3px -1px;
-  border-radius: 10px;
-}
-
 .entriesWrapper h3 {
   text-align: center;
-  padding: 1.5rem 0 0.5rem 0;
+  
 }
+
+
+
+
+
 
 
 
 
 footer {
   text-align: center;
-  margin: 80px 0 10px 0;
+  margin: 2rem 0;
   font-size: 0.9rem;
   font-family: "Source Code Pro", monospace;
 }
