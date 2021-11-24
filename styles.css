@@ -93,7 +93,7 @@ box-shadow: rgba(247, 245, 245, 0.918) 0px 2px 8px 0px;
   border-radius: 5px;
   /*box-shadow: whitesmoke 0px 2px 5px -1px, whitesmoke 0px 1px 3px -1px;*/
   margin-top: 1rem;
-  padding: 1rem 0 1rem 1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 
@@ -101,7 +101,40 @@ box-shadow: rgba(247, 245, 245, 0.918) 0px 2px 8px 0px;
 
 .entriesWrapper h3 {
   text-align: center;
+  padding: 1rem 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+}
+
+/* DETAILS */
+
+.data {
+  margin: 2rem 0;
+  padding: 1rem 0;
   
+}
+
+.data div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  background-color: #d6c85b;
+
 }
 
 
