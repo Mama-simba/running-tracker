@@ -101,7 +101,7 @@ box-shadow: rgba(247, 245, 245, 0.918) 0px 2px 8px 0px;
 
 .entriesWrapper h3 {
   text-align: center;
-  padding: 1rem 0;
+  padding: 1.5rem 0 2rem 0;
 }
 
 ul {
@@ -139,9 +139,12 @@ li {
 
 
 
+/* WEEKLY TARGET */
 
-
-
+.progress h3 {
+  text-align: center;
+  padding-bottom: 2rem;
+}
 
 
 
