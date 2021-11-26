@@ -29,7 +29,14 @@ main {
   
 }
 
+@media only screen and (max-width: 650px) {
+  
+  main {
+  width: 80%;
+  
+}
 
+}
 
 /* HEADER */
 
@@ -117,6 +124,21 @@ li {
   padding: 1rem 1.5rem;
 }
 
+@media only screen and (max-width: 910px) {
+  
+  ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 5px;
+}
+
+}
+
+
+
 /* DETAILS */
 
 .data {
@@ -141,7 +163,7 @@ li {
 
 /* WEEKLY TARGET */
 
-.progress h3 {
+.progress h4 {
   text-align: center;
   padding-bottom: 2rem;
 }
