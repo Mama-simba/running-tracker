@@ -31,6 +31,7 @@ function handleSubmit(event){
     calcTotal()
     calcAverage()
     weeklyHigh()
+    calcGoal()
 }
 
 const form = document.querySelector("form").addEventListener("submit", handleSubmit);
@@ -60,4 +61,17 @@ function calcAverage(){
 function weeklyHigh(){
     const high = Math.max(...entries)  // "..." concatenate the array´s values & gets the highest value
     document.getElementById('high').innerText = high;
+}
+
+
+
+// 4) Calculate goal (progress Circle)
+
+function calcGoal() {
+  const totalValue = entries.reduce(reducer).toFixed(1) // access totalValue from above
+  const completedPercent = totalValue / (goal/100)
+  const progressCircle = document.querySelector('#progressCircle')
+  if (completedPercent > 100) completedPercent === 100
+  progressCircle.style.background = `conic-gradient(
+    #34BE82 ${completedPercent}%, #383737 ${completedPercent}% 100%`
 }

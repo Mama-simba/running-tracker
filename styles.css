@@ -177,7 +177,7 @@ li {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  background: conic-gradient(#34BE82 50%, #383737 50%);
+  /*background: conic-gradient(#34BE82 50%, #383737 50%);*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -188,12 +188,22 @@ li {
   height: 220px;
   border-radius: 50%;
   background-color: #212121;
-
-
 }
 
 
+@media only screen and (max-width: 365px) and (min-width: 320px) {
 
+  #progressCircle {
+  width: 200px;
+  height: 200px;
+}
+
+#progressCenter{
+  width: 170px;
+  height: 170px;
+}
+
+}
 
 
 
