@@ -161,12 +161,40 @@ li {
 
 
 
-/* WEEKLY TARGET */
+/* PROGRESS CIRCLE */
 
 .progress h4 {
   text-align: center;
   padding-bottom: 2rem;
 }
+
+.progressCircleWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#progressCircle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: conic-gradient(#34BE82 50%, #383737 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progressCenter{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background-color: #212121;
+
+
+}
+
+
+
+
 
 
 

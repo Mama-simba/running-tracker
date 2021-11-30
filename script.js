@@ -5,6 +5,9 @@
 let entries = [];
 const entriesWrapper = document.querySelector("#entries"); //selects the ul
 
+const goal = 40;
+document.querySelector("#target").innerText = goal;
+
 function addNewEntry(newEntry){
     const listItem = document.createElement("li"); //creates a <li></li>
     const listValue = document.createTextNode(newEntry.toFixed(1)); //creates a value
@@ -27,6 +30,7 @@ function handleSubmit(event){
     addNewEntry(entry)
     calcTotal()
     calcAverage()
+    weeklyHigh()
 }
 
 const form = document.querySelector("form").addEventListener("submit", handleSubmit);
@@ -51,4 +55,9 @@ function calcAverage(){
 }
 
 
-// 3) Weekly high
+// 3) Highest weekly value
+
+function weeklyHigh(){
+    const high = Math.max(...entries)  // "..." concatenate the array´s values & gets the highest value
+    document.getElementById('high').innerText = high;
+}
